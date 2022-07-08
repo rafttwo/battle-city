@@ -3,7 +3,7 @@
 #include <glad/glad.h>
 #include <string>
 
-namespace Render {
+namespace Renderer {
 	class ShaderProgram {
 	public:
 			ShaderProgram(const std::string& vertexShader, const std::string& fregmentShader);
